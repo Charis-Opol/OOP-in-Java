@@ -1,7 +1,7 @@
-import java.util.Scanner;
+import java.util.*;
 
-public class Name{
-    public static void main(String[] args) {
+public class name2 {
+        public static void main(String[] args) {
         System.out.println("Enter your first name: ");
         Scanner Scanner = new Scanner(System.in);
         String firstName = Scanner.nextLine();
