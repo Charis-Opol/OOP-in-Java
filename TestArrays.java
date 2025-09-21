@@ -13,6 +13,7 @@ public class TestArrays {
         for (String x : names){
             System.out.println(x);
         }
+        scan.close();
     }
     
 }
