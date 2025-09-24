@@ -7,6 +7,9 @@ static int binary_search(int array[], int key){
             return mid;
         else if(array[mid] < key)
             left = mid + 1;
+        else
+            right = mid - 1;
+    }
 public class Binary_search {
     public static void main(String[] args){
         int[] my_array = {10, 20, 30, 40, 50};
