@@ -1,4 +1,4 @@
-
+package Groupwork;
 
 public class QuestionJ6 {
     public static void main(String[] args){
