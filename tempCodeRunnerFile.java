@@ -22,10 +22,10 @@ public class Student_marks {
             int count = scan.nextInt();
             for (int i = 0; i < count; i++){
                 System.out.println("Enter your name: ");
-                String name = scan.next();
+                String name = scan.nextLine();
                 names.add(name);
                 System.out.println("Enter your registration number: ");
-                String regno = scan.next();
+                String regno = scan.nextLine();
                 regnos.add(regno);
                 System.out.println("Enter the math marks: ");
                 int math = scan.nextInt();
